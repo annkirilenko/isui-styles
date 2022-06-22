@@ -1,0 +1,51 @@
+/** Блок откликов **/
+
+#panel_feedback {
+  position: fixed;
+  max-width: 400px;
+  right: 10px;
+  bottom: 0;
+  z-index: 99999;
+  margin: 0;
+  border: none;
+}
+
+#panel_feedback #button_toggle_feedback {
+  position: absolute;
+  float: none !important;
+  right: 5px;
+  top: 5px;
+  width: 28px;
+  height: 28px;
+  background: none;
+  color: #eee;
+  border: none;
+}
+
+#panel_feedback .panel-heading {
+  background-color: #333;
+  color: #eee;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 4px #999
+}
+
+#panel_feedback .panel-body {
+  border-left: 1px solid #b9b9b9;
+  border-right: 1px solid #b9b9b9;
+  box-shadow: 0 0 4px #999
+}
+
+#panel_feedback .panel-body .btn-success {
+  background-color: #333;
+  border-radius: 5px;
+  border: none;
+  color: #eee;
+  float: right;
+  padding: 6px 12px 8px;
+}
+
+#panel_feedback.small-feedback .panel-body {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+}
