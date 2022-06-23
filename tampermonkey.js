@@ -25,8 +25,8 @@ function ready(fn) {
 
 function injectStyles() {
     const files = [
-        'GENERAL'
-        'NAVBAR'
+        'GENERAL',
+        'NAVBAR',
         'PANEL_FEEDBACK'
     ];
 
