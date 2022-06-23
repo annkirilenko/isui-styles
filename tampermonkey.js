@@ -8,6 +8,8 @@
 // @icon         
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
+// @resource     GENERAL https://raw.githubusercontent.com/annkirilenko/isui-styles/main/general.css
+// @resource     NAVBAR https://raw.githubusercontent.com/annkirilenko/isui-styles/main/navbar.css
 // @resource     PANEL_FEEDBACK https://raw.githubusercontent.com/annkirilenko/isui-styles/main/panel-feedback.css
 // ==/UserScript==
 
@@ -23,6 +25,8 @@ function ready(fn) {
 
 function injectStyles() {
     const files = [
+        'GENERAL'
+        'NAVBAR'
         'PANEL_FEEDBACK'
     ];
 
