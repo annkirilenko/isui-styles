@@ -1,0 +1,12 @@
+.navbar {
+  outline: none;
+}
+
+.navbar-inverse {
+  background-color: #3c3c3c;
+}
+
+.navbar-inverse::before,
+.navbar-inverse::after {
+  display: none;
+}
