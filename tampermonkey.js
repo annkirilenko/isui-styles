@@ -9,6 +9,7 @@
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // @resource     GENERAL https://raw.githubusercontent.com/annkirilenko/isui-styles/main/general.css
+// @resource     BREADCRUMBS https://raw.githubusercontent.com/annkirilenko/isui-styles/main/breadcrumbs.css
 // @resource     NAVBAR https://raw.githubusercontent.com/annkirilenko/isui-styles/main/navbar.css
 // @resource     PANEL_FEEDBACK https://raw.githubusercontent.com/annkirilenko/isui-styles/main/panel-feedback.css
 // ==/UserScript==
@@ -27,6 +28,7 @@ function injectStyles() {
     const files = [
         'GENERAL',
         'NAVBAR',
+        'BREADCRUMBS',
         'PANEL_FEEDBACK'
     ];
 
