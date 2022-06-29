@@ -1,0 +1,20 @@
+.breadcrumb * {
+  font-size: 10px;
+}
+
+.breadcrumb {
+  padding: 2px 0;
+  background: none;
+}
+
+.breadcrumb::before {
+  display: none; 
+}
+
+.breadcrumb > .active {
+  color:#333;
+}
+
+.breadcrumb > li a {
+  color: #166936;
+}
